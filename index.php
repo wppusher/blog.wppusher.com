@@ -38,18 +38,18 @@
     </div>
 </section>
 
-<div id="licenses" class="container centered">
+<div class="container centered">
 
     <h2>Stay in the loop</h2>
 
     <p>Type in your e-mail to receive news and updates about WP Pusher.</p>
     <br>
 
-    <form class="form-inline">
+    <form method="POST" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" novalidate action="//wppusher.us9.list-manage.com/subscribe/post?u=514158db7871a8d4e9a558963&amp;id=3baab10369" class="form-inline">
         <div class="form-group">
-            <input type="email" class="form-control input-lg">&nbsp;
+            <input type="email" value="" name="EMAIL" class="form-control input-lg" id="mce-EMAIL">&nbsp;
         </div>
-        <input type="submit" class="btn btn-success btn-lg" value="Yes, please!">
+        <input type="submit" class="btn btn-success btn-lg" value="Yes, please!" name="subscribe" id="mc-embedded-subscribe">
     </form>
 
     <br><br>
