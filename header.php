@@ -5,7 +5,7 @@
     <meta name="publishableKey" content="pk_live_Afv3BKeFXK6kdt1DsQX7ukb0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>WP Pusher | Pain-free deployment of WordPress themes and plugins</title>
+    <title><?php bloginfo('name'); ?> | <?php is_front_page() ? bloginfo('description') : wp_title(''); ?></title>
     <link rel="icon" href="https://wppusher.com/favicon.ico">
 
     <!-- Latest compiled and minified CSS -->
