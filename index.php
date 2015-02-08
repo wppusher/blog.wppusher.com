@@ -9,7 +9,7 @@
     <br><br>
 
     <p class="lead centered">
-        Blog about WordPress <strong>deployment</strong>, <strong>work flow</strong> and <strong>best practices</strong>.
+        Blog about WordPress <strong>deployment</strong>, <strong>work flow</strong> and <strong>best practices</strong>, written by <strong><a href="https://wppusher.com">WPPusher.com</a></strong> &nbsp;-&nbsp; Pain-free deployment for WordPress.
 
     <br><br>
 
