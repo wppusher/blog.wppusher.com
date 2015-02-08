@@ -9,8 +9,7 @@
     <br><br>
 
     <p class="lead centered">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc aliquet augue ex, ut egestas ligula blandit in. Vestibulum eu magna posuere, volutpat augue nec, ultrices massa. Fusce faucibus metus quis nisl ullamcorper molestie.
-    </p>
+        Blog about WordPress <strong>deployment</strong>, <strong>work flow</strong> and <strong>best practices</strong>.
 
     <br><br>
 
