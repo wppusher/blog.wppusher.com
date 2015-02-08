@@ -1,0 +1,206 @@
+/* Colors */
+a {
+  color: #ffffff;
+  text-decoration: underline;
+}
+a:hover {
+  color: #ffffff;
+}
+body {
+  background-color: #00497d;
+  border-top: solid 10px #428bca;
+  color: #ffffff;
+  font-family: 'Lato', 'Helvetica', 'Arial';
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 36px;
+  margin-bottom: 60px;
+  padding-top: 200px;
+}
+footer {
+  background-color: #428bca;
+  bottom: 0;
+  margin-top: 20px;
+  padding: 20px 30px;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+h1,
+h2 {
+  font-family: 'Montserrat', 'Helvetica', 'Arial';
+}
+h2 {
+  margin-top: 60px;
+}
+h1 a,
+h2 a,
+h3 a {
+  text-decoration: none;
+}
+h1 a:active,
+h2 a:active,
+h3 a:active,
+h1 a:hover,
+h2 a:hover,
+h3 a:hover,
+h1 a:visited,
+h2 a:visited,
+h3 a:visited {
+  color: #ffffff;
+  text-decoration: none;
+}
+html {
+  min-height: 100%;
+  position: relative;
+}
+p {
+  margin-top: 30px;
+}
+small {
+  font-size: 14px;
+}
+.logo {
+  max-width: 260px;
+}
+.logo-button {
+  max-width: 60px;
+}
+.feature h2 {
+  margin-top: 0;
+}
+.feature {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.feature-img {
+  max-width: 100%;
+}
+.lead {
+  font-size: 30px;
+  text-shadow: 2px 2px 1px #2c3e50;
+}
+.highlight {
+  font-size: 30px;
+}
+.blue {
+  background-color: #428bca;
+  /*color: #444;*/
+}
+.btn {
+  text-decoration: none;
+}
+.btn-signup-lg {
+  font-size: 34px;
+  padding: 20px 26px;
+  margin: 40px;
+}
+.centered {
+  text-align: center;
+}
+.copy {
+  font-size: 64px;
+  text-shadow: 2px 2px 1px #2c3e50;
+}
+.modal-content {
+  color: #00497d;
+  text-align: center;
+}
+.panel-body {
+  color: #00497d;
+}
+.panel-body li a,
+.panel-body li a:hover {
+  color: #00497d;
+}
+.price-box {
+  line-height: 34px;
+}
+.price-box h3 {
+  font-size: 20px;
+}
+.price-box ul {
+  font-size: 18px;
+}
+.price-box .btn-lg {
+  font-size: 24px;
+}
+.pusher-nav {
+  list-style: none;
+  padding-left: 0;
+  padding-top: 20px;
+  font-size: 18px;
+}
+.pusher-nav li {
+  display: inline;
+  margin-left: 20px;
+}
+.pusher-nav li a {
+  text-decoration: none;
+  padding-bottom: 3px;
+}
+.pusher-nav li.active a,
+.pusher-nav li a:hover {
+  border-bottom: solid 4px #428bca;
+}
+.slide {
+  max-width: 100%;
+  box-shadow: 5px 5px 2px #2c3e50;
+}
+.sidebar-nav {
+  font-family: 'Montserrat';
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+  list-style: none;
+  padding-left: 0;
+}
+.sidebar-nav li {
+  margin-top: 12px;
+}
+.sidebar-nav a {
+  text-decoration: none;
+}
+.header {
+  background-color: #00497d;
+  border-top: solid 10px #428bca;
+}
+.header.smaller {
+  max-height: 74px;
+  border-top: none;
+}
+.header.smaller .logo {
+  max-width: 180px;
+  /* Sticky header animation */
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.header.smaller a.btn-signup-lg {
+  font-size: 18px;
+  margin-top: 16px;
+  padding: 8px 16px;
+  /* Sticky header animation */
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.content-area {
+  padding-bottom: 60px;
+}
+@media screen and (max-width: 767px) {
+  .copy {
+    font-size: 40px;
+  }
+  a.btn-signup-lg {
+    font-size: 40px;
+    padding: 10px 20px;
+  }
+  .pusher-nav {
+    margin-bottom: 40px;
+  }
+}
