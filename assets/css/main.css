@@ -97,6 +97,21 @@ img {
 .blue a:hover {
   color: #00497d;
 }
+.blue h1 a, .blue h2 a, .blue h3 a {
+  text-decoration: none;
+}
+.blue h1 a:active,
+.blue h2 a:active,
+.blue h3 a:active,
+.blue h1 a:hover,
+.blue h2 a:hover,
+.blue h3 a:hover,
+.blue h1 a:visited,
+.blue h2 a:visited,
+.blue h3 a:visited {
+  color: #00497d;
+  text-decoration: none;
+}
 .btn {
   text-decoration: none;
 }
