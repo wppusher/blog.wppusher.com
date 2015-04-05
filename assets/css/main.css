@@ -11,7 +11,7 @@ body {
   border-top: solid 10px #428bca;
   color: #ffffff;
   font-family: 'Lato', 'Helvetica', 'Arial';
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 300;
   line-height: 36px;
   margin-bottom: 60px;
@@ -26,16 +26,13 @@ footer {
   text-align: center;
   width: 100%;
 }
-h1,
-h2 {
+h1, h2 {
   font-family: 'Montserrat', 'Helvetica', 'Arial';
 }
 h2 {
   margin-top: 60px;
 }
-h1 a,
-h2 a,
-h3 a {
+h1 a, h2 a, h3 a {
   text-decoration: none;
 }
 h1 a:active,
@@ -59,6 +56,9 @@ p {
 }
 small {
   font-size: 14px;
+}
+img {
+  max-width: 100%;
 }
 .logo {
   max-width: 260px;
@@ -87,8 +87,15 @@ small {
   font-size: 30px;
 }
 .blue {
-  background-color: #428bca;
-  /*color: #444;*/
+  background-color: #fff;
+  color: #00497d;
+}
+.blue a {
+  color: #00497d;
+  text-decoration: underline;
+}
+.blue a:hover {
+  color: #00497d;
 }
 .btn {
   text-decoration: none;
@@ -112,8 +119,7 @@ small {
 .panel-body {
   color: #00497d;
 }
-.panel-body li a,
-.panel-body li a:hover {
+.panel-body li a, .panel-body li a:hover {
   color: #00497d;
 }
 .price-box {
@@ -142,8 +148,7 @@ small {
   text-decoration: none;
   padding-bottom: 3px;
 }
-.pusher-nav li.active a,
-.pusher-nav li a:hover {
+.pusher-nav li.active a, .pusher-nav li a:hover {
   border-bottom: solid 4px #428bca;
 }
 .slide {
@@ -151,10 +156,8 @@ small {
   box-shadow: 5px 5px 2px #2c3e50;
 }
 .sidebar-nav {
-  font-family: 'Montserrat';
   font-size: 18px;
-  font-weight: 700;
-  line-height: 28px;
+  line-height: 24px;
   list-style: none;
   margin-bottom: 40px;
   padding-left: 0;
@@ -176,6 +179,7 @@ small {
 .header.smaller .logo {
   max-width: 180px;
   /* Sticky header animation */
+
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   -ms-transition: all 0.3s ease;
@@ -187,6 +191,7 @@ small {
   margin-top: 16px;
   padding: 8px 16px;
   /* Sticky header animation */
+
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   -ms-transition: all 0.3s ease;
