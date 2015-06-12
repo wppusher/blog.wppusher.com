@@ -232,3 +232,12 @@ img {
     max-width: 180px;
   }
 }
+
+/* Drip */
+#drip-5873 input[type='email'] {
+    line-height: 20px;
+}
+.drip-panel .description {
+    font-size: 13px !important;
+    line-height: initial;
+}
