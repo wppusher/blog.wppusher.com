@@ -26,8 +26,9 @@
         <?php get_template_part('content', 'single'); ?>
 
     <?php endwhile; ?>
-    
-    <div id="disqus_thread"></div>
+
+<br>    
+<div id="disqus_thread"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES * * */
     var disqus_shortname = 'wppusherblog';
