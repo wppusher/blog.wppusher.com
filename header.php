@@ -30,7 +30,7 @@
 <section class="header navbar-fixed-top">
     <div class="container">
 
-        <a href="https://wppusher.com/" class="btn btn-success btn-lg btn-signup-lg pull-right">Get WP Pusher</a>
+        <a href="https://wppusher.com/" class="btn btn-success btn-lg btn-signup-lg pull-right">Try WP Pusher</a>
 
         <h3><a href="/"><img src="https://wppusher.com/hvid_002.png" class="logo"></a></h3>
 
